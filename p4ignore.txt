@@ -1,0 +1,44 @@
+.p4config
+
+# Ignore project files in the root
+*.sln
+.vs
+.vsconfig
+*.suo
+*.opensdf
+*.sdf
+*.pdb
+*-Debug.dll
+*.xcodeproj
+
+*\Makefile
+*\CMakeLists.txt
+*\.ue4dependencies
+
+ipch\*
+
+# Ignore Unix backup files
+*~
+
+# Ignore Mac desktop services store files
+.DS_Store
+
+# Ignore logs, crash reports, etc.
+crashinfo--*
+*.log
+
+# Ignore linux project files
+*.user
+*.pro
+*.pri
+*.kdev4
+
+*\.idea\*
+*\RiderLink\*
+
+*\Binaries\*
+*\Intermediate\*
+*\Plugins\*\Binaries\*
+*\Plugins\*\Intermediate\*
+*\Saved\*
+*\DerivedDataCache\*
